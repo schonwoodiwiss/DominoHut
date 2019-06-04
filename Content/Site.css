@@ -1,0 +1,142 @@
+﻿
+* {
+    font-family: 'Lato', 'Arial', sans-serif;
+    
+    font-size: 20px;
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+h1 {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 200%;
+}
+h2 {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 160%;
+}
+.icon {
+    display:inline-block;
+    color:crimson;
+    align-self:center;
+    font-size:50px;
+}
+.container {
+    margin-left: 0px;
+    margin-right: 0px;
+    /*increase width as per your need*/
+    width:215vh;
+}
+.section-2 {
+    width: 100vw;
+}
+.section-3 {
+    padding-top:20px;
+    background-color:#eaeaea;
+    display:block;
+    height:80vh;
+    width:100vw;
+}
+    .section-3 .title {
+        display:block;
+        text-align:center;
+        margin-bottom:50px;
+    }
+
+body {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.section-1 {
+    align-content: stretch;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),url(Images/LandingPageBackPick.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: block;
+    color: white;
+}
+
+.landing_text {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+/*-----------BUTTONS-------------*/
+.btnGeneral {
+    display: inline-block;
+    border: hidden;
+    padding: 10px 30px;
+    border-radius: 10px 10px;
+    text-decoration: none;
+
+}
+.btnGeneral:link,
+.btnGeneral:visited {
+    
+}
+
+    .btnGeneral:hover,
+    .btnGeneral:active {
+        transition: background-color 0.2s, border 0.2s, color 0.2s;
+        cursor: pointer;
+    }
+.btn-Order {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+.btn-Order:link,
+.btn-Order:visited {
+
+}
+
+
+.btn-Order:hover,
+.btn-Order:active {
+    background-color: #cf6d17;
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+.about-text {
+    margin-left: 5%;
+}
+
+.flavor-text-about {
+    display:block;
+    text-align:center;
+    background-color: crimson;
+}
+
+
